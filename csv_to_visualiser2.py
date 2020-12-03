@@ -6,7 +6,7 @@ import pandas as pd
 import tqdm
 # csv_path='yolo1.csv'
 # csv_path='BBD_daytime_train.csv'
-csv_path='yolov4_nuscene_prediction.csv'
+csv_path='yolov4_nuscene_prediction_new.csv'
 # csv_path='/home/mayank_s/datasets/bdd/training_set/only_csv/front_light_bdd.csv'
 # root='/home/mayank_s/datasets/bdd/bdd100k_images/bdd100k/images/100k/train'
 root='/home/mayank_s/datasets/nuscene/v1.0-mini/sweeps/CAM_FRONT'

@@ -202,3 +202,10 @@ def select_device(device='', apex=False, batch_size=None):
 
     print('')  # skip a line
     return torch.device('cuda:0' if cuda else 'cpu')
+
+def load_classes(path):
+    # Loads *.names file at 'path'
+    with open(path, 'r') as f:
+        names = f.read().split('\n')
+    return list(filter(None, names))  # filter removes empty strings (such as last line)
+
